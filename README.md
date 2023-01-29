@@ -240,6 +240,114 @@ console.log(result);
 // Output: undefined
 
  ```
+ 
+ ### Q:21 কোন একটা Array এর মধ্যে লাস্ট উপাদান হিসেবে কোন উপাদান হিসেবে যোগ করতে চাইলে কিভাৱে যোগ করবে। আবার Array থেকে শেষের উপাদান টা বের করে দিতে চাইলে কিভাবে বের করে দিবে? 
+
+ <p>Add a new item as the last element of an array:  </p>
+
+   ```js 
+const fruits = ["Banana", "Orange", "Apple", "Mango"];
+fruits.push("watermalon");
+console.log(fruits);
+
+//Output: [ 'Banana', 'Orange', 'Apple', 'Mango', 'watermalon' ]
+
+ ```
+
+ <p>Remove the last element of an array:  </p>
+
+   ```js 
+const fruits = ["Banana", "Orange", "Apple", "Mango"];
+fruits.pop();
+console.log(fruits);
+
+//Output: [ 'Banana', 'Orange', 'Apple' ]
+
+ ```
+
+### Q:22 কোন একটা Array এর মধ্যে প্রথম উপাদান হিসেবে কোন উপাদান হিসেবে যোগ করতে চাইলে কিভাৱে যোগ করবে। আবার Array থেকে প্রথম উপাদান টা বের করে দিতে চাইলে কিভাবে বের করে দিবে? 
+
+ <p>Add a new item as the first element of an array:  </p>
+
+   ```js 
+const fruits = ["Banana", "Orange", "Apple", "Mango"];
+fruits.unshift("Watermalon");
+console.log(fruits);
+
+//Output: [ 'Watermalon', 'Banana', 'Orange', 'Apple', 'Mango' ]
+
+ ```
+
+<p>Remove the first element of an array:  </p>
+
+   ```js 
+const fruits = ["Banana", "Orange", "Apple", "Mango"];
+fruits.shift();
+console.log(fruits);
+
+//Output: [ 'Orange', 'Apple', 'Mango' ]
+
+ ```
+
+### Q:23 তুলনা কিভাবে করতে হয়। এইগুলার মানে কি: >, <, ==, !=, <=, >=, ===, !==, &&, ।। 
+
+<p>Comparison operators can be used in conditional statements to compare values. </p>
+
+ 
+
+   ```js 
+   /*
+
+ >	greater than
+ <	less than
+ ==	equal to
+ !=	not equal
+ <=	less than or equal to
+ >=	greater than or equal to
+ ===	equal value and equal type
+ !==	not equal value or not equal type
+ &&	and
+ ||	or
+
+
+*/
+ ```
+
+
+### Q:24 তোমার কাছে: ৮০০০০ টাকার বেশি হলে তুমি mac কিনবে, ৬০ হাজার টাকার বেশি হলে gaming ল্যাপটপ কিনবে, ৪০ হাজার টাকার বেশি হলে lenovo yoga কম্পিউটার কিনবে , ২০ হাজার টাকার বেশি হলে পুরান ল্যাপটপ কিনবে। না হয় তুমি মোবাইল দিয়ে কাজ চালাবে।
+
+```js
+var myBudget = 30000;
+if(myBudget > 80000){
+    console.log("I want to buy a mac.");
+}
+else if(myBudget > 60000){
+ console.log("I want to buy Gaming a laptop.");
+}
+else if(myBudget > 40000){
+ console.log("I want to buy a lenovo yoga.");
+}
+else if(myBudget > 20000){
+ console.log("I want to buy a Second hand laptop");
+}
+else{
+    console.log("No enough money. Let me fun with my xiaomi");
+}
+
+```
+
+### Q:25 আসকে আমার মন ভালো নেই এই কথা ৩৯ বার আউটপুট হিসেবে দেখাও।
+
+```js
+for(var i = 0; i<39; i++){
+    console.log("আসকে আমার মন ভালো নেই");
+}
+
+```
+
+
+
+
 
 
 
