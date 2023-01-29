@@ -202,7 +202,51 @@ const fruit1 = fruits[2];
  ```
 
 
-###
+### Q:18 কিভাবে কোন একটা index পজিশন এ array এর উপাদান এর মান চেইঞ্জ করতে পারবে ?
+
+
+  ```js 
+const fruits = ["Banana", "Orange", "Apple", "Mango"];
+fruits[2] = "watermalon";
+console.log(fruits);
+
+// Output: [ 'Banana', 'Orange', 'watermalon', 'Mango' ]
+
+ ```
+
+### Q: 19 একটা Array এর মধ্যে কোন একটা উপাদান এর মান তোমাকে দেয়া আছে এখন সেটার index তুমি কিভাবে খুঁজে বের করতে পারো?
+
+
+  ```js 
+var scores = [10, 20, 30, 10, 40, 20];
+
+console.log(scores.indexOf(10)); // 0
+console.log(scores.indexOf(30)); // 2
+console.log(scores.indexOf(50)); // -1
+console.log(scores.indexOf(20)); // 1
+
+ ```
+
+
+### Q:20 ধরো, কোন একটা ইনডেক্স দিয়ে উপাদান খুঁজতে গেছো। কিন্তু সেটার মান না দিয়ে তোমাকে undefined দেখাচ্ছে। সেটা দেখে তুমি কি বুঝবে?
+
+
+<p>It actually means that which index number i have provided does not contains any element.</p>
+
+  ```js 
+const fruits = ["Banana", "Orange", "Apple", "Mango"];
+var result = fruits[4];
+console.log(result);
+// Output: undefined
+
+ ```
+
+
+
+
+
+
+
 
 
 
