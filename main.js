@@ -1,5 +1,4 @@
-var x = 95;
+const fruits = ["Banana", "Orange", "Apple", "Mango"];
 
-x = 900;
-
-console.log(x);
+const fruit1 = fruits[2];
+console.log(fruit1);
